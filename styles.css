@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b0c4de;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 0.5em 0;
+    text-align: center;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+header h1 {
+    margin: 0em 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #666;
+}
+
+.summary-header {
+    margin: 0;
+    font-size: 1.5em;
+    color: #000000;      
+}
+
+.education, .description {
+    padding: 2em;
+    margin: 2em auto;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.emptydescription {
+    padding: 0em;
+    margin: 1.5em auto;
+    background-color: #b0c4de;
+    border-radius: 8px;
+    max-width: 1000px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.subeducation {
+    padding: 1em;
+    margin: 0em auto;
+    background-color: #f0f0f0;
+}
+
+.education summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.subeducation summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin-right: 0em;
+    border: 3px solid #ddd;
+}
+
+.photo {
+    width: 250px;
+    height: 200px;
+    margin-right: 2em;
+    border: 3px solid #ddd;
+}
+
+.tg-sign {
+    border-radius: 0%;
+    width: 30px;
+    height: 30px;
+    margin-right: 2em;
+    border: 0px solid #ddd;
+}
+
+.inst-sign {
+    border-radius: 0%;
+    width: 30px;
+    height: 30px;
+    margin-right: 2em;
+    border: 0px solid #ddd;
+}
+
+.b17-sign {
+    border-radius: 0%;
+    width: 30px;
+    height: 30px;
+    margin-right: 2em;
+    border: 0px solid #ddd;
+}
+
+.d-flex a {
+    margin-right: -2em;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile-info, .education, .description, .appointment {
+    flex: 1;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #777;
+    text-align: center;
+    padding: 0.5em 0;
+    border-top: 1px solid #ddd;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    height: 5vh;         
+}
+
+.register-button {
+    padding: 15px 30px;     
+    background-color: #007BFF; 
+    color: white;          
+    text-decoration: none;   
+    border-radius: 10px;    
+    font-size: 16px;      
+    transition: background-color 0.3s;
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+}
+
