@@ -154,7 +154,8 @@ footer {
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 400px; 
+  max-width: 500px; 
+  max-height: 313px; 
   margin: 0 auto; 
   padding-bottom: 56.25%; 
   height: 0;
