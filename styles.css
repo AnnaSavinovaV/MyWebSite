@@ -155,10 +155,8 @@ footer {
   position: relative;
   width: 100%;
   max-width: 500px; 
-  max-height: 313px; 
+  aspect-ratio: 16 / 9;
   margin: 0 auto; 
-  padding-bottom: 56.25%; 
-  height: 0;
   overflow: hidden;
 }
 
